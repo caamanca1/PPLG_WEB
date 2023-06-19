@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORTOFOLIO</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Font Awesome 5.15.1 CSS -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+</head>
+<body>
+  <header>
+    
+    <!-- <img class="logo" src="img/Red_LOGOS-removebg-preview.png" alt="logo"> -->
+      <p class="logo">RIEFABS</p>
+    <nav>
+      <ul class="nav_links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="cta" href="#"><button>Portofolio</button></a>
+  </header>
+  <hr color="#2C3333">
+
+  <div class="greet">
+    <h1>HI!</h1>
+    <h2>I'M <font-style class="red">Riesky</font-style> a Junior Software Engineering</h2>
+    <p>I am a 16 - years old student that attending to study at <font-style class="school">SMK Wikrama Bogor</font-style><br> and majoring in <font-style class="major">Software And Game Development.</font-style></p>
+    
+    <div class="social-icons">
+      <a href="#" title="facebook">
+        <i class="fab fa-facebook-square" aria-hidden="true"></i>
+      </a>
+      <a href="#" title="twitter">
+        <i class="fab fa-twitter-square" aria-hidden="true"></i>
+      </a>
+      <a href="#" title="instagram">
+        <i class="fab fa-instagram" aria-hidden="true"></i>
+      </a>
+      <a href="#" title="youtube">
+        <i class="fab fa-youtube-square" aria-hidden="true"></i>
+      </a>
+      <a href="#" title="linked-in">
+        <i class="fab fa-linkedin" aria-hidden="true"></i>
+      </a>
+    </div>
+
+    <div class="foto">
+      <img src="img/Senyum.jpg">
+    </div>
+  </div>
+
+  <a class="about" href="#">Curriculum Vitae</a>
+
+  <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+
+ <script>
+    $(window).on("load",function(){
+      $(".loader-wrapper").fadeOut("slow");
+    });
+  </script>
+
+</body>
+</html>
